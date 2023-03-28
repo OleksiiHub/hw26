@@ -22,20 +22,20 @@ Accumulator.prototype.printItems = function () {
 const accumulator = new Accumulator()
 
 function plusOne() {
-    const plusNum = 1;
-    accumulator.plusOne(plusNum)
+ 
+    accumulator.plusOne()
     accumulator.printItems()
 }
 
 function minusOne() {
-    const minusNum = 1;
-    accumulator.minusOne(minusNum)
+  
+    accumulator.minusOne()
     accumulator.printItems()
 }
 
 function clearAccum() {
-    const minusNum = 100;
-    accumulator.clearAccum(minusNum)
+  
+    accumulator.clearAccum()
     accumulator.printItems()
 }
 
