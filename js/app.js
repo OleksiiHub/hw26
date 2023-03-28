@@ -15,9 +15,7 @@ Accumulator.prototype.clearAccum = function (clearNum) {
 }
 
 Accumulator.prototype.printItems = function () {
-    // for (let i = 0; i < this.accum.length; i++) {
-    //     console.log(`${this.accum}`);
-    // }
+
     console.log(this);
 }
 
